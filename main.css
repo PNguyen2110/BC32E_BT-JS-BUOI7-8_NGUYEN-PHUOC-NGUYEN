@@ -1,0 +1,42 @@
+.up-down{
+    position: relative;
+}
+ .btn {
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    font-size: 1rem;
+    display: block;
+    border: transparent;
+    font-size: 40px;
+    outline: none!important;
+    color: #fff;
+
+}
+.btn.focus, .btn:focus{
+    outline: none!important;
+    box-shadow: none;
+}
+
+.up {
+    display: none;
+}
+
+.active .up {
+    display: block;
+    
+
+}
+
+.active .down {
+    display: none;
+    
+}
+
+.none {
+    display: none;
+}
+
+.active + .none {
+    display: block;
+}

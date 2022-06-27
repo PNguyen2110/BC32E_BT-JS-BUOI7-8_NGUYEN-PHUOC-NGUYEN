@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+
+    <div class="w-50 bg-white my-5 " style="margin:auto">
+        <div class="form-group">
+            <input id="input1" type="number" class>
+            <button id="btnThemSo" class="btn-primary">Thêm số</button>
+            <br>
+            <p class="alert-primary mt-3">Kết quả: <strong id="mang"></strong> </p>
+
+        </div>
+        <hr>
+        <!-- Bài 1: Tính tổng số dương -->
+
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 1: Tính tổng số dương</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn1">Tính Tổng</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua1"></strong> </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- bài 2: đếm số dương -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 2: đếm số dương</h4>
+            <div class="up-down">
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn2">Đếm số</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua2"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Bài 3: Tìm số nhỏ nhất -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger"> Bài 3: Tìm số nhỏ nhất</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn3">Tìm</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua3"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <!-- Bài 4: Tìm số dương nhỏ nhất -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger"> Bài 4: Tìm số dương nhỏ nhất</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn4">Tìm</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua4"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- Bài 5: Tìm số chẵn cuối cùng -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger"> Bài 5: Tìm số chẵn cuối cùng</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn5">Tìm</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua5"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Bài 6: Đổi chỗ -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 6: Đổi chỗ</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+                <div class="none">
+                    <input type="number" id="soThu1" placeholder="Nhập số thứ nhất">
+                    <input type="number" id="soThu2" placeholder="Nhập số thứ hai"> <br>
+                    <br>
+                    <button class="btn-primary" id="btn6">Đổi chỗ</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua6"></strong> </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- Bài 7: Sắp xếp tăng dần -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 7: Sắp xếp tăng dần</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn7">Tìm</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua7"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Bài 8: Tìm số nguyên tố đầu tiên -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 8: Tìm số nguyên tố đầu tiên</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn8">Tìm</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua8"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- Bài 9: Đếm số nguyên -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 9: Đếm số nguyên</h4>
+
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+                <div class="none">
+                    <div>
+                        <input id="input9" type="number" class>
+                        <button id="btnThemSo9" class="btn-primary">Thêm số</button>
+                        <p class="alert-primary mt-3">Kết quả:<strong id="mang9"></strong></p>
+                    </div>
+                    <button class="btn-primary" id="btn9">Đếm số</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua9"></strong> </p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- Bài 10: So sánh số lượng số âm và số dương -->
+        <div class="form-group  position-relative">
+            <h4 class="bg-danger">Bài 10: So sánh số lượng số âm và số dương</h4>
+            <div class="up-down">
+
+                <button class="btn">
+                    <span class="down"><i class="fa fa-angle-down"></i></span>
+                    <span class="up"><i class="fa fa-angle-up"></i></span>
+                </button>
+
+
+                <div class="none ">
+
+                    <button class="btn-primary" id="btn10">Tìm</button>
+                    <p class="alert-primary mt-3">Kết quả là: <strong id="ketQua10"></strong> </p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
